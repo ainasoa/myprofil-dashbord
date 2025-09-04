@@ -12,12 +12,10 @@ export default function DashboardHeader() {
       </div>
       <div className="flex gap-2">
         <Button className="shadow">
-          <LuUserPlus />
-          Invite Others
+          <LuUserPlus /> Invite Others
         </Button>
         <Button color="light" className="shadow">
-          <LuBug />
-          Report bug
+          <LuBug /> Report bug
         </Button>
       </div>
     </div>

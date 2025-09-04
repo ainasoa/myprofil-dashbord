@@ -30,9 +30,9 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex h-dvh w-dvw">
+        <div className="flex h-dvh w-dvw overflow-hidden">
           <SideBar />
-          <div className="flex-1 bg-gray-100 h-dvh">
+          <div className="flex-1 bg-gray-100 h-dvh overflow-y-auto">
             <AdminNavBar />
             <div className="p-4">{children}</div>
           </div>
